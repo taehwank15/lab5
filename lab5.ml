@@ -246,14 +246,14 @@ Exercise 8: Create a validated_date function that raises Invalid_date if
 the invariant is violated, and returns the date if valid.
 ......................................................................*)
 
-exception Invalid_date of string ;;
+(* exception Invalid_date of string ;;
 
 let validated_date ({year, month, day} : date) : date =
   if y < 0 then raise Invalid_date "non-positive year" else
   if m > 12 || m < 0 then raise Invalid_date "invalid month" else
     match m with
-    | Or 1
-
+    |
+ *)
 
 (*======================================================================
 Part 3: Family trees as an algebraic data type
